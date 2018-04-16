@@ -17,3 +17,15 @@ for i in range(101,200):
         l.append(i)
 
 print(len(l))
+
+
+
+
+
+def a(n):
+   L = []
+   for i in range(2,n-1):
+       L.append(n%i)
+   if  0 not in L:
+      return True
+print filter(a,range(101,200))
